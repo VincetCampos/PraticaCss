@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .flex-containe{
+            display: flex;
+            background-color: blue;
+            color: white;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        .contenido{
+            display: flex;
+        }
+        .nav-menu{
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            height: auto;
+            width: auto;
+
+        }
+        .objeto{
+            display: flex;
+            background-color: blue;
+            color: white;
+            margin: 5px;
+            width: 70px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        .cuerpo{
+            display: flex;
+            flex-direction: column;
+            margin: 0px;
+        }
+        .infoderecha{
+            display: flex;
+            background-color: rgb(234, 76, 76);
+            flex-wrap: wrap;
+            margin: 2cqw;
+            height: 425px;
+            width: 425px;
+            border-radius: 10px;
+        }
+        .footer{
+            display: flex;
+            background-color: greenyellow;
+            height: 75px;
+            align-items: center;
+            margin-left: 100px;
+            border-radius: 10px;
+        }
+        .barraderecha{
+            margin: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <div class="flex-containe">
+            <h1>Bienvenidos a mi pagina web</h1>
+        </div>
+        <div class="contenido">
+            <div>
+                <p>Usar el menú para navegar</p>
+                <ul class="nav-menu">
+                    <li class="objeto"><a href="#" style="color: white;"> Opción 1</a></li>
+                    <li class="objeto"><a href="#" style="color: white;"> Opción 2</a></li>
+                    <li class="objeto"><a href="#" style="color: white;"> Opción 3</a></li>
+                    <li class="objeto"><a href="#" style="color: white;"> Opción 4</a></li>
+                </ul>
+            </div>
+            <div class="cuerpo">
+                <h2>Este es el cuerpo de mi página</h2>
+                <p>Mi página esta dividida en distintas secciones, esta corresponde al cuerpo de mi sencilla página web, la parte izquierda contiene con un menú de navegación y la parte derecha una barra con información adicional.</p>
+            </div>
+            <div class="infoderecha">
+                <h3 class="barraderecha">Barra derecha</h3>
+                <p class="barraderecha">
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        
+                    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                </p>
+            </div>
+        </div>
+        <div class="footer">
+            <h3>Pie de página</h3>
+        </div>
+    </div>
+</body>
+</html>
